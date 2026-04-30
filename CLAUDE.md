@@ -1,3 +1,4 @@
+
 # WGD Brand Assets — Custodian Context
 
 ## Purpose
@@ -95,7 +96,7 @@ Conventional, lowercase, imperative:
 
 ### Branches
 
-- `main` is the consumer contract. Always trustworthy. Branch protection on.
+- `main` is the consumer contract. Always trustworthy.
 - Feature branches: `add/<scope>`, `update/<scope>`, `fix/<scope>`, `chore/<scope>`
 - One concern per branch. One concern per commit where practical.
 
