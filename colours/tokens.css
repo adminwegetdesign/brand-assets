@@ -1,0 +1,18 @@
+/*
+ * WGD brand colour tokens
+ * Source of truth: guidelines/wgd-brand-guidelines.md
+ * Consumer contract: this URL never mutates. Breaking changes ship as tokens-v2.css.
+ */
+
+:root {
+  /* Primary — always pair teal + lime */
+  --wgd-teal: #004751;
+  --wgd-lime: #CAD500;
+
+  /* Secondary — marketing material */
+  --wgd-slate-blue: #4B6775;
+  --wgd-dark-grey: #53565B;
+  --wgd-light-grey: #CFD2D3;
+  --wgd-pale-lime: #E2E9B9;
+  --wgd-aqua: #50BAAD;
+}
