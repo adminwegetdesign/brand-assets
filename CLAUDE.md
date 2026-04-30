@@ -30,8 +30,8 @@ Always pair teal + lime. Never substitute either with an approximation.
 
 ### Typography
 
-- Display / logo: **ITC Avant Garde Gothic** (demi, bold) — licensed font, not for embedding
-- Body / web: **Lexend** (light, regular, medium, semi-bold) — Google Font, web-safe
+- Display / logo: **ITC Avant Garde Gothic** (demi, book) — licensed font, not for embedding
+- Body / web: **Lexend** (light, regular, medium, semi-bold, bold) — Google Font, web-safe
 
 ### Logo system
 
