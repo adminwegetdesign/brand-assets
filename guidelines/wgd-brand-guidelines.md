@@ -244,17 +244,24 @@ The PDF specifies a fourth structure — the full-colour logo on a dark backgrou
 
 ### `fonts/`
 
-_Currently empty._ Will hold the Lexend variable font (one file covering all sanctioned weights via the `wght` axis), plus the OFL licence. ITC Avant Garde Gothic is licensed and **must not** be committed.
-
-### `colours/`
+Lexend ships as a **variable font** — one file covers all weights via the `wght` axis. ITC Avant Garde Gothic is licensed and **must not** be committed.
 
 | File | Format | Notes |
 |---|---|---|
-| `tokens.json` | Design Tokens CG JSON | Programmatic consumption |
-| `tokens.css` | CSS custom properties | Drop-in for any web project |
+| `lexend-variable.woff2` | Variable woff2 | Web — covers weights 100–900 |
+| `lexend-variable.ttf` | Variable TrueType | Desktop / Office — covers weights 100–900 |
+| `OFL.txt` | Licence | SIL Open Font License 1.1 |
 | `README.md` | Folder guide | Practical consumption notes |
 
-See [`colours/README.md`](../colours/README.md) for usage and CSS snippets.
+See [`fonts/README.md`](../fonts/README.md) for usage and CSS snippets.
+
+### `colours/`
+
+_Currently empty._ Will hold:
+- `tokens.json` — palette as Design Tokens CG JSON.
+- `tokens.css` — palette as CSS custom properties.
+
+`colours/tokens.json` is referenced in the consumer-contract example in CLAUDE.md, so any downstream skill expecting that URL is currently 404ing. Producing these files is an open follow-up.
 
 ---
 
