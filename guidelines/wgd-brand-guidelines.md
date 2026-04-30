@@ -248,11 +248,13 @@ _Currently empty._ Will hold the Lexend variable font (one file covering all san
 
 ### `colours/`
 
-_Currently empty._ Will hold:
-- `tokens.json` — palette as Design Tokens CG JSON.
-- `tokens.css` — palette as CSS custom properties.
+| File | Format | Notes |
+|---|---|---|
+| `tokens.json` | Design Tokens CG JSON | Programmatic consumption |
+| `tokens.css` | CSS custom properties | Drop-in for any web project |
+| `README.md` | Folder guide | Practical consumption notes |
 
-`colours/tokens.json` is referenced in the consumer-contract example in CLAUDE.md, so any downstream skill expecting that URL is currently 404ing. Producing these files is an open follow-up.
+See [`colours/README.md`](../colours/README.md) for usage and CSS snippets.
 
 ---
 
